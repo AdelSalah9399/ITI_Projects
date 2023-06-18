@@ -1,15 +1,12 @@
 
 #include <util/delay.h>
 #include "../MCAL/DIO/DIO_Interface.h"
-#include "../HAL/SeV_Seg/SeVseg_interface.h"
 #include "../HAL/Switch/Switch_Interface.h"
 #include "../HAL/LCD/Lcd_Interface.h"
 #include "../HAL/KeyPad/KPD_Interface.h"
 #include "../MCAL/EXTI_post/EXTI_Interface.h"
 #include "../MCAL/Timer/Timer2/Timer2_Interface.h"
-#include "../MCAL/Timer/Timer0/Timer0_Interface.h"
 #include "../MCAL/ADC/ADC_Interface.h"
-#include "../MCAL/EXTI_pre/EXTI_pre_Interface.h"
 
 
 
