@@ -8,37 +8,13 @@
 
 
 #include <util/delay.h>
-#include "../HAL/LED/Led_Configuration.h"
 #include "../MCAL/DIO/DIO_Interface.h"
-#include "../HAL/LED/Led_Private.h"
-#include "../HAL/SeV_Seg/SeVseg_interface.h"
+#include "../HAL/LED/Led_Configuration.h"
 #include "../HAL/Switch/Switch_Interface.h"
 #include "../HAL/LCD/Lcd_Interface.h"
 #include "../HAL/KeyPad/KPD_Interface.h"
-#include "../MCAL/EXTI_post/EXTI_Register.h"
-#include "../MCAL/EXTI_post/EXTI_Interface.h"
-#include "../MCAL/Timer/Timer2/Timer2_Register.h"
-#include "../MCAL/Timer/Timer2/Timer2_Config.h"
 #include "../MCAL/Timer/Timer2/Timer2_Interface.h"
-#include "../MCAL/ADC/ADC_Config.h"
-#include "../MCAL/ADC/ADC_Register.h"
-#include "../MCAL/ADC/ADC_Private.h"
 #include "../MCAL/ADC/ADC_Interface.h"
-#include "../HAL/Switch/Switch_Configuration.h"
-#include "../HAL/Switch/Switch_Private.h"
-#include "../MCAL/UART/UART_Interface.h"
-#include "../MCAL/UART/UART_Register.h"
-#include "../MCAL/UART/UART_Config.h"
-#include "../MCAL/UART/UART_Private.h"
-#include "../MCAL/EXTI_pre/EXTI_pre_Interface.h"
-#include "../MCAL/TWI/TWI_Interface.h"
-#include "../HAL/EEPROM/EEPROM_Interface.h"
-#include "../RTOS_Stack/Timer0/Timer0_Config.h"
-#include "../RTOS_Stack/Timer0/Timer0_Interface.h"
-#include "../RTOS_Stack/Timer0/Timer0_Register.h"
-#include "../RTOS_Stack/RTOS/RTOS_Interface.h"
-
-
 
 
 void main()
