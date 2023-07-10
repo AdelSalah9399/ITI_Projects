@@ -6,7 +6,6 @@
 #include "../HAL/KeyPad/KPD_Interface.h"
 #include "../MCAL/EXTI_post/EXTI_Interface.h"
 #include "../MCAL/Timer/Timer2/Timer2_Interface.h"
-#include "../MCAL/ADC/ADC_Interface.h"
 
 
 
